@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!--Title goes in the tab-->
+        <title>Sully UX Blog</title>
+        <link rel="stylesheet" type="text/css" href="/Volumes/GoogleDrive/My Drive/Code/UXBlog/css/sullystyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+   
+    <body>
+    <div id ="header">
+        <h1>Sully UX blog</h1>
+            <ul>
+                <li><a href="/Volumes/GoogleDrive/My Drive/Code/UXBlog/index.html">Home</a></li>
+                <li><a href="/Volumes/GoogleDrive/My Drive/Code/UXBlog/about.html">About</a></li>
+                <li><a href="/Volumes/GoogleDrive/My Drive/Code/UXBlog/contact.html">Contact</a></li>
+            </ul>
+    </div>
+        
+    <div class="article">
+    
+    <h1>Color management in sketch, figma and design</h1>
+    
+    <div class = "image">
+     <img src="/Volumes/GoogleDrive/My Drive/Code/UXBlog/images/Sketch-Pages.jpg">
+    </div>
+    
+    <h2> Sketch can render documents in two color profiles — sRGB and Display P3. To make things simple, Sketch uses an Unmanaged color profile by default. This just means that Sketch uses your system’s default color profile — ‘Color LCD’ on a MacBook Pro for example.</h2>
+        <h3>Unmanaged color profile</h3>
+        <p> As previously stated, Sketch documents use an Unmanaged color profile by default. If you don’t want to manage your color profile or your project doesn’t call for it, then you can simply leave these preferences as they are.You’ll benefit from better performance in the app but be aware that, when you export files, the colors may look different from what you see on screen in Sketch. If you do need to work in a specific color profile, you’ll be choosing between sRGB and P3.
+        </p>
+        
+        <h3>sRGB color profile</h3>
+        <p>If you’re a web or mobile designer, you’ll probably be used to working in an RGB color profile, simply because this how you express color values in HTML. You might not be used to having to choose your color profile, however, as it‘s usually assigned by your browser. If it‘s essential that the colors you see on screen in Sketch perfectly match the colors in the final exported files, then you should be using the sRGB color profile. If you‘re designing for web or for a wide variety of output displays, sRGB is most likely to be the best color space for you — sRGB is a universal standard for displaying colors on the web and all phones and Macs are capable of displaying these colors.
+        </p>
+        
+            <div class = "image">
+     <img src="/Volumes/GoogleDrive/My Drive/Code/UXBlog/images/Sketch-Pages.jpg">
+    </div>
+        
+            <h2> Sketch can render documents in two color profiles — sRGB and Display P3. To make things simple, Sketch uses an Unmanaged color profile by default. This just means that Sketch uses your system’s default color profile — ‘Color LCD’ on a MacBook Pro for example.</h2>
+        <h3>Unmanaged color profile</h3>
+        <p> As previously stated, Sketch documents use an Unmanaged color profile by default. If you don’t want to manage your color profile or your project doesn’t call for it, then you can simply leave these preferences as they are.You’ll benefit from better performance in the app but be aware that, when you export files, the colors may look different from what you see on screen in Sketch. If you do need to work in a specific color profile, you’ll be choosing between sRGB and P3.
+        </p>
+        
+        <h3>sRGB color profile</h3>
+        <p>If you’re a web or mobile designer, you’ll probably be used to working in an RGB color profile, simply because this how you express color values in HTML. You might not be used to having to choose your color profile, however, as it‘s usually assigned by your browser. If it‘s essential that the colors you see on screen in Sketch perfectly match the colors in the final exported files, then you should be using the sRGB color profile. If you‘re designing for web or for a wide variety of output displays, sRGB is most likely to be the best color space for you — sRGB is a universal standard for displaying colors on the web and all phones and Macs are capable of displaying these colors.
+        </p>
+    </div>
+        
+    <div id="socialmedia">
+    <p class="social">follow me: twitter  |  facebook  | linkedin</p>
+    
+    <button onclick="goBack()">Go Back</button>
+    </div>
+    
+    
+    
+    </body>
+    
+    <script>
+            function goBack() {
+            window.history.back();
+        }
+    </script>
+</html>

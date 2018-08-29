@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6, p { 
+    font-family: roboto;
+    line-height: 140%
+}
+
+h3 {
+    font-weight: 100;
+}
+
+p {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+p.social {
+    font-size: 16px;
+    
+}
+
+#header {
+    width: 99%;
+    padding: 30px,30px,30px,30px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+#footer {
+    width: 99%;
+    padding: 30px,30px,30px,30px;
+    height: 100px;
+    background-color: lightgrey;
+    float: left;
+}
+
+/*#wrapper {
+    max-width: 1500px;
+    margin: auto;
+    background-color: whitesmoke; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family: roboto;
+    margin: 15px;
+}
+
+.column {
+    float: left;
+    width:33.33%;
+    padding: 15px;
+    background-color: white;
+    height: 180px;
+}
+
+.article-listing {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.article {
+    background-color: aquamarine;
+    max-width: 750px;
+    margin: auto;
+}
+
+img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+#socialmedia {
+    background-color: yellow;
+    margin: auto;
+    max-width: 750px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    font-family: roboto;
+    cursor: pointer;
+    margin: 15px 0px 15px 0px;
+}
+
+.promo {
+    padding: 30px,30px,30px,30px;
+    height: 100px;
+    background-color: lightgrey;
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+/* link styling */
+    a {
+        color: hotpink;
+    }
+
+    a:visited {
+        color: green;
+    }
+
+    a:hover {
+        color: aquamarine;
+    }
+
+    a:active { 
+        color: blue;
+    }
+
+
+/* Clear floats after the columns - find out what this does*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+/*link styling*/
+    
+@media screen and (max-width:960px) {
+    .column {
+        width: 50%;
+    }
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+
